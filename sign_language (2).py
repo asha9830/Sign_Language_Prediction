@@ -38,11 +38,11 @@ Project_Name='Indian_Sign_Language'
 
 from google.colab import drive
 
-drive.mount('/content/gdrive/', force_remount=True)
+drive.mount('data_Directory', force_remount=True)
 
 # Look into the data directory
 # Change the directory as required
-Data_Directory = '/content/gdrive/MyDrive/Sign_Language/data/'
+Data_Directory = 'data_Directory'
 Classes_Found = os.listdir(Data_Directory)
 print(Classes_Found)
 
